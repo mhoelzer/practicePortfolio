@@ -1,5 +1,95 @@
-/* General CSS stuff goes here. */
+/* Variables used throughout will go here. */
+/* CSS code for the Navbar section. */
+html, body {
+  height: 100%; }
 
-body {
-    background-color: white;
-}
+#topNav {
+  z-index: -1; }
+
+#nav {
+  width: 100%; }
+
+#nav.affix-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 54px;
+  background-color: purple;
+  border: 0; }
+
+#nav.affix {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  -webkit-transition: all .6s ease-in-out; }
+
+@media (min-width: 767px) {
+  .navbar-nav.nav-justified > li {
+    float: none; } }
+
+.navbar-nav {
+  margin: 1px 1px; }
+
+.navbar-toggle {
+  outline: 0; }
+
+.divider {
+  height: 50px; }
+
+.panel {
+  border-width: 0; }
+
+.scroll-top {
+  position: fixed;
+  bottom: 0;
+  right: 6%;
+  z-index: 100;
+  background: #f2f3f2;
+  font-size: 24px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+.scroll-top a:link, .scroll-top a:visited {
+  color: #222; }
+
+section {
+  color: #ffffff;
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  padding-top: 100px; }
+
+@media only screen and (max-width: 798px) {
+  .navbar-header {
+    display: block; }
+  .navbar-brand {
+    width: 100%;
+    padding: 70px 0 15px; }
+    .navbar-brand ul {
+      display: none; }
+      .navbar-brand ul li {
+        float: none; }
+        .navbar-brand ul li a {
+          padding: 15px;
+          line-height: 20px; }
+        .navbar-brand ul li ul li a {
+          padding-left: 30px; }
+  .nav-dropdown {
+    position: static; } }
+
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important; } }
+
+/* CSS code for the Header section. */
+header {
+  height: 100%;
+  min-height: 500px;
+  background: url("../assets/img/dude.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+/* CSS code for the Portfolio section. */
+/* CSS code for the About section. */
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */

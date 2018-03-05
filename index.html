@@ -7,61 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Document</title>
-
     <!-- Bootstrap core CSS Modules-->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
     <link href="" rel="stylesheet" type="text/css">
-
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
-
     <!-- Navigation -->
     <!--Note that the text-uppercase will set the name in caps -->
-    <div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation" style="background-color: orange">
+    <div class="navbar navbar-inverse navbar-static-top" id="nav">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">EFA Starter Template</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="active">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="active">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
+          <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse">
+          <div class="navbar-brand">Project Name</div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#section2">About</a></li>
+              <li><a href="#section3">Services</a></li>
+              <li><a href="#section4">Location</a></li>
+              <li><a href="#section5">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+    </div><!--/.navbar -->
     <br>
     <br>
-
     <!-- Header -->
-    <header class="jumbotron text-center">
+    <header class="jumbotron" style="text-align: center">
         <div class="container">
             <h1 class="jumbotron-heading">Coder Portfolio</h1>
             <p class="lead text-muted">Some text about how amazing and awesome we are.</p>
@@ -70,74 +53,109 @@
             </p>
         </div>
     </header>
-
     <!-- Portfolio -->
     <section>
-        <div class="col-md-3" style="background-color:yellow">
-            <img src="assets/img/diedie.png">
-            <h2 style="color:pink">hello</h2>
-            <p>subtitle</p>
-            <p>
-                <a href="#" class="btn btn-danger" role="button">boo</a>
-                <a href="#" class="btn btn-danger" role="button">hoo</a>
-            </p>
+        <div class="row">
+            <h2 class="text-center text-uppercase text-white">Portfolio</h2>
+            <div class="col-md-6" style="background-color:yellow">
+                <img src="assets/img/diedie.png" style="width:50%; height:50%;">
+                <h2 style="color:pink">hello</h2>
+                <p>subtitle</p>
+                <p>
+                    <a href="#" class="btn btn-danger" role="button">boo</a>
+                </p>
+            </div>
+            <div class="col-md-6" style="background-color:green">
+                <img src="assets/img/kev.jpg" style="width:50%; height:50%;">
+                <h2 style="color:pink">hello</h2>
+                <p>subtitle</p>
+                <p>
+                    <a href="#" class="btn btn-danger" role="button">boo</a>
+                </p>
+            </div>
         </div>
-        <div class="col-md-3" style="background-color:green">
-            <img src="assets/img/kev.jpg">
-            <h2 style="color:pink">hello</h2>
-            <p>subtitle</p>
-            <p>
-                <a href="#" class="btn btn-danger" role="button">boo</a>
-                <a href="#" class="btn btn-danger" role="button">hoo</a>
-            </p>
-        </div>
-        <div class="col-md-3" style="background-color:orange">
-            <img src="assets/img/nicat.jpg">
-            <h2 style="color:pink">hello</h2>
-            <p>subtitle</p>
-            <p>
-                <a href="#" class="btn btn-danger" role="button">boo</a>
-                <a href="#" class="btn btn-danger" role="button">hoo</a>
-            </p>
-        </div>
-        <div class="col-md-3" style="background-color:blue">
-            <img src="assets/img/smile=).jpeg">
-            <h2 style="color:pink">hello</h2>
-            <p>subtitle</p>
-            <p>
-                <a href="#" class="btn btn-danger" role="button">boo</a>
-                <a href="#" class="btn btn-danger" role="button">hoo</a>
-            </p>
+        <div class="row">
+            <div class="col-md-6" style="background-color:orange">
+                <img src="assets/img/nicat.jpg" style="width:50%; height:50%;">
+                <h2 style="color:pink">hello</h2>
+                <p>subtitle</p>
+                <p>
+                    <a href="#" class="btn btn-danger" role="button">boo</a>
+                </p>
+            </div>
+            <div class="col-md-6" style="background-color:blue">
+                <img src="assets/img/smile=).jpeg" style="width:50%; height:50%;">
+                <h2 style="color:pink">hello</h2>
+                <p>subtitle</p>
+                <p>
+                    <a href="#" class="btn btn-danger" role="button">boo</a>
+                </p>
+            </div>
         </div>
     </section>
-
     <!-- About -->
-    <section>
+    <section class="bg-danger">
+        <div class="container">
+            <h2 class="text-center">About</h2>
+            <div class="row">
+                <p>bobobobobobobob</p>
+                <p>bobobobobobobob</p>
+                <p>bobobobobobobob</p>
+            </div>
+        </div>
     </section>
-
     <!-- Contact -->
     <section>
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <form>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" id="email" type="email" placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
-
     <!-- Footer -->
     <footer>
+        <div class="footer" style="background-color:blueviolet; height:30px;">
+            My Footer here
+        </div>
     </footer>
-
     <!-- Copyright -->
-
     <!-- Modals -->
-
     <!-- Scripts -->
-
     <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
     <!-- jQuery 3rd Party Scripts-->
-
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
