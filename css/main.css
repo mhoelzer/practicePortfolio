@@ -90,6 +90,10 @@ header {
   background-size: cover; }
 
 /* CSS code for the Portfolio section. */
+.row {
+  margin: 0px;
+  text-align: center; }
+
 /* CSS code for the About section. */
 /* CSS code for the Contact section. */
 /* CSS code for the Footer section. */
